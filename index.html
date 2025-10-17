@@ -3,14 +3,22 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Niemi Isolierung – Wärmedämmung für Industrie & Gebäude</title>
-  <meta name="description" content="Professionelle Wärmedämmung, Blechverkleidung und Lüftungskomponenten. Zuverlässige Qualität – fairer Preis." />
+  <title>Niemi Isolierung – Lüftungssysteme & Metallprodukte in hoher Qualität</title>
+  <meta name="description" content="Professionelle Wärmedämmung, Blechverkleidung und Lüftungskomponenten. Präzision in jedem Schnitt – Qualität in jedem Detail. Faire Preise, schnelle Lieferung." />
+  <!-- hreflangit -->
   <link rel="alternate" hreflang="fi" href="https://www.niemi-isolering.com/" />
   <link rel="alternate" hreflang="de" href="https://de.niemi-isolering.com/" />
   <link rel="alternate" hreflang="x-default" href="https://www.niemi-isolering.com/" />
+  <!-- OG/SEO -->
+  <meta property="og:title" content="Niemi Isolierung – Lüftungssysteme & Metallprodukte in hoher Qualität" />
+  <meta property="og:description" content="Professionelle Wärmedämmung, Blechverkleidung und Lüftungskomponenten. Präzision, faire Preise, schnelle Lieferung." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://de.niemi-isolering.com/" />
+  <link rel="canonical" href="https://de.niemi-isolering.com/" />
   <style>
     :root { --bg:#0f172a; --card:#111827; --text:#e5e7eb; --accent:#f59e0b; }
-    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial;background:var(--bg);color:var(--text);line-height:1.6}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial;background:var(--bg);color:var(--text);line-height:1.6}
     .wrap{max-width:1000px;margin:auto;padding:24px}
     header{display:flex;gap:16px;align-items:center;justify-content:space-between}
     nav a{color:var(--text);opacity:.85;text-decoration:none;margin-left:12px}
@@ -18,6 +26,7 @@
     .hero{margin:48px 0;padding:28px;border:1px solid #1f2937;border-radius:16px;background:linear-gradient(180deg,#111827 0%,#0b1224 100%)}
     h1{margin:0 0 8px;font-size:clamp(28px,5vw,42px)}
     .cta{display:inline-block;margin-top:16px;padding:12px 18px;border-radius:999px;background:var(--accent);color:#1f2937;font-weight:700;text-decoration:none}
+    .cta.ghost{background:transparent;border:2px solid var(--accent);color:var(--text)}
     .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:24px}
     .card{background:var(--card);padding:18px;border-radius:14px;border:1px solid #1f2937}
     footer{opacity:.8;margin-top:40px;font-size:14px}
@@ -30,14 +39,17 @@
       <div><strong>Niemi Isolierung</strong></div>
       <nav>
         <a href="https://www.niemi-isolering.com/">FI/DK</a>
-        <a href="https://de.niemi-isolering.com/">DE</a>
+        <span aria-hidden="true">·</span>
+        <a href="https://de.niemi-isolering.com/" lang="de" hreflang="de">DE</a>
       </nav>
     </header>
 
     <section class="hero">
-      <h1>Wärmedämmung mit Präzision & Vertrauen</h1>
-      <p>Industrielle und gebäudetechnische Dämmung, Blechverkleidung sowie Lüftungskomponenten – termintreu und sauber ausgeführt.</p>
-      <a class="cta" href="#kontakt">Kontakt aufnehmen</a>
+      <h1>Lüftungssysteme & Metallprodukte in hoher Qualität</h1>
+      <p>Präzision in jedem Schnitt – Qualität in jedem Detail. Faire Preise und schnelle Lieferung.</p>
+      <!-- NAPIT, joissa polut osiotunnisteisiin -->
+      <a class="cta" href="#produkte">Produktkatalog ansehen</a>
+      <a class="cta ghost" href="#kontakt" style="margin-left:8px;">Angebot anfordern</a>
     </section>
 
     <section class="grid">
@@ -50,6 +62,7 @@
           <li>Montage vor Ort, Wartung & Reparaturen</li>
         </ul>
       </div>
+
       <div class="card">
         <h3>Vorteile</h3>
         <ul>
@@ -60,19 +73,21 @@
         </ul>
       </div>
 
+      <!-- PDF-OSIO, johon hero-nappi #produkte vie -->
       <div class="card">
-        <h3>Unterlagen (PDF, DE)</h3>
+        <h3 id="produkte">Unterlagen (PDF, DE)</h3>
         <ul>
-          <li><a href="pdf/niemi_isolering_forside_DE_final_print.pdf" target="_blank">Startseite / Firmenpräsentation (PDF)</a></li>
-          <li><a href="pdf/niemi_isolering_side10_Witterungsbestaendig_DE.pdf" target="_blank">Witterungsbeständiges Lüftungsgitter (PDF)</a></li>
-          <li><a href="pdf/niemi_isolering_side11_Dachadapter_DE_print.pdf" target="_blank">Dachadapter (PDF)</a></li>
-          <li><a href="pdf/niemi_isolering_side12_Wandgitter_DE_print.pdf" target="_blank">Wandgitter (PDF)</a></li>
-          <li><a href="pdf/niemi_isolering_side13_Wandkanalrahmen_DE_print.pdf" target="_blank">Wandkanalrahmen (PDF)</a></li>
+          <li><a href="pdf/niemi_isolering_forside_DE_final_print.pdf" target="_blank" rel="noopener">Startseite / Firmenpräsentation (PDF)</a></li>
+          <li><a href="pdf/niemi_isolering_side10_Witterungsbestaendig_DE.pdf" target="_blank" rel="noopener">Witterungsbeständiges Lüftungsgitter (PDF)</a></li>
+          <li><a href="pdf/niemi_isolering_side11_Dachadapter_DE_print.pdf" target="_blank" rel="noopener">Dachadapter (PDF)</a></li>
+          <li><a href="pdf/niemi_isolering_side12_Wandgitter_DE_print.pdf" target="_blank" rel="noopener">Wandgitter (PDF)</a></li>
+          <li><a href="pdf/niemi_isolering_side13_Wandkanalrahmen_DE_print.pdf" target="_blank" rel="noopener">Wandkanalrahmen (PDF)</a></li>
         </ul>
         <p style="font-size:13px;opacity:.8">PDF-Dokumente sind direkt abrufbar. Alle Unterlagen auf Deutsch.</p>
       </div>
     </section>
 
+    <!-- Kontakt, johon hero-nappi #kontakt vie -->
     <section id="kontakt" class="grid">
       <div class="card">
         <h3>Kontakt</h3>
