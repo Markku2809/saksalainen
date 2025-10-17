@@ -6,133 +6,173 @@
   <title>Produkte (PDF) – Niemi Isolierung</title>
   <meta name="description" content="Produktkatalog und technische Datenblätter – PDF-Downloads in deutscher Sprache." />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://www.niemi-isolering.com/assets/style.css" />
+  <style>
+    :root{--bg1:#eaf6f0;--bg2:#d7efe1;--text:#0f172a;--muted:#466262;--brand:#2fbf71}
+    *{box-sizing:border-box}html,body{margin:0;padding:0}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+         background:linear-gradient(180deg,var(--bg1),var(--bg2));color:var(--text);line-height:1.6}
+    .wrap{max-width:1100px;margin:0 auto;padding:24px}
+    header{display:flex;justify-content:space-between;align-items:center;gap:12px;
+           background:linear-gradient(180deg,#ffffffcc,transparent);border-radius:14px;padding:12px 16px}
+    nav a{margin-left:14px;color:inherit;text-decoration:none;padding:8px 10px;border-radius:10px}
+    nav a.active,nav a:hover{background:rgba(0,0,0,.06)}
+    h1{font-size:clamp(28px,3.6vw,44px);margin:16px 0 8px}
+    .lead{color:var(--muted);margin:0 0 18px}
+    .list{display:grid;gap:14px;margin-top:16px}
+    .item{display:grid;gap:14px;grid-template-columns:1fr auto;background:#fff;border:1px solid #00000014;
+          border-radius:16px;padding:16px;box-shadow:0 6px 18px #0000000d;align-items:center}
+    .btn{display:inline-block;background:linear-gradient(90deg,var(--brand),#86e2ae);color:#06351f;
+         font-weight:700;padding:12px 16px;border-radius:12px;border:none;text-decoration:none;white-space:nowrap}
+    .alt{display:block;font-size:13px;opacity:.8;margin-top:6px}
+    footer{margin-top:28px;border-top:1px solid #00000014;padding-top:12px;font-size:14px}
+  </style>
 </head>
 <body>
-  <header class="site-header compact">
-    <div class="container nav">
-      <div class="brand">NIEMI ISOLIERUNG</div>
-      <nav class="menu">
+  <div class="wrap">
+    <header>
+      <div><strong>NIEMI ISOLIERUNG</strong></div>
+      <nav>
         <a href="index.html">Startseite</a>
         <a href="produkte.html" class="active">Produkte (PDF)</a>
         <a href="kontakt.html">Kontakt</a>
         <span aria-hidden="true">·</span>
         <a href="https://www.niemi-isolering.com/">FI/DK</a>
       </nav>
-    </div>
-  </header>
+    </header>
 
-  <main>
-    <section class="container">
+    <main>
       <h1>Produktunterlagen (PDF, DE)</h1>
-      <p>Hier finden Sie alle technischen PDF-Dokumente in deutscher Sprache. Alle Dateien können direkt geöffnet oder heruntergeladen werden.</p>
+      <p class="lead">Hier finden Sie alle technischen PDF-Dokumente in deutscher Sprache. Dateien können direkt geöffnet oder heruntergeladen werden.</p>
 
-      <div class="catalog grid-2" style="margin-top:30px;">
-        <div class="doc">
-          <h3>Firmenpräsentation</h3>
-          <div class="doc-actions">
+      <div class="list">
+
+        <!-- 1 -->
+        <div class="item">
+          <h3 style="margin:0">Firmenpräsentation</h3>
+          <div>
             <a class="btn" href="https://de.niemi-isolering.com/niemi_isolering_forside_DE_final_print.pdf" target="_blank" rel="noopener">PDF öffnen</a>
+            <a class="alt" href="https://markku2809.github.io/saksalainen/niemi_isolering_forside_DE_final_print.pdf" target="_blank" rel="noopener">Alternative: GitHub-linkki</a>
           </div>
         </div>
 
-        <div class="doc">
-          <h3>Witterungsbeständiges Lüftungsgitter</h3>
-          <div class="doc-actions">
+        <!-- 2 -->
+        <div class="item">
+          <h3 style="margin:0">Witterungsbeständiges Lüftungsgitter</h3>
+          <div>
             <a class="btn" href="https://de.niemi-isolering.com/niemi_isolering_side10_Witterungsbestaendiges_Gitter_DE_print.pdf" target="_blank" rel="noopener">PDF öffnen</a>
+            <a class="alt" href="https://markku2809.github.io/saksalainen/niemi_isolering_side10_Witterungsbestaendiges_Gitter_DE_print.pdf" target="_blank" rel="noopener">Alternative: GitHub-linkki</a>
           </div>
         </div>
 
-        <div class="doc">
-          <h3>Dachadapter</h3>
-          <div class="doc-actions">
+        <!-- 3 -->
+        <div class="item">
+          <h3 style="margin:0">Dachadapter</h3>
+          <div>
             <a class="btn" href="https://de.niemi-isolering.com/niemi_isolering_side11_Dachadapter_DE_print.pdf" target="_blank" rel="noopener">PDF öffnen</a>
+            <a class="alt" href="https://markku2809.github.io/saksalainen/niemi_isolering_side11_Dachadapter_DE_print.pdf" target="_blank" rel="noopener">Alternative: GitHub-linkki</a>
           </div>
         </div>
 
-        <div class="doc">
-          <h3>Wandgitter</h3>
-          <div class="doc-actions">
+        <!-- 4 -->
+        <div class="item">
+          <h3 style="margin:0">Wandgitter</h3>
+          <div>
             <a class="btn" href="https://de.niemi-isolering.com/niemi_isolering_side12_Wandgitter_DE_print.pdf" target="_blank" rel="noopener">PDF öffnen</a>
+            <a class="alt" href="https://markku2809.github.io/saksalainen/niemi_isolering_side12_Wandgitter_DE_print.pdf" target="_blank" rel="noopener">Alternative: GitHub-linkki</a>
           </div>
         </div>
 
-        <div class="doc">
-          <h3>Wandkanalrahmen</h3>
-          <div class="doc-actions">
+        <!-- 5 -->
+        <div class="item">
+          <h3 style="margin:0">Wandkanalrahmen</h3>
+          <div>
             <a class="btn" href="https://de.niemi-isolering.com/niemi_isolering_side13_Wandkanalrahmen_DE_print.pdf" target="_blank" rel="noopener">PDF öffnen</a>
+            <a class="alt" href="https://markku2809.github.io/saksalainen/niemi_isolering_side13_Wandkanalrahmen_DE_print.pdf" target="_blank" rel="noopener">Alternative: GitHub-linkki</a>
           </div>
         </div>
 
-        <div class="doc">
-          <h3>Regenkragen</h3>
-          <div class="doc-actions">
+        <!-- 6 -->
+        <div class="item">
+          <h3 style="margin:0">Regenkragen</h3>
+          <div>
             <a class="btn" href="https://de.niemi-isolering.com/niemi_isolering_side14_Regenkragen_DE_print.pdf" target="_blank" rel="noopener">PDF öffnen</a>
+            <a class="alt" href="https://markku2809.github.io/saksalainen/niemi_isolering_side14_Regenkragen_DE_print.pdf" target="_blank" rel="noopener">Alternative: GitHub-linkki</a>
           </div>
         </div>
 
-        <!-- BKT-sarja -->
-        <div class="doc">
-          <h3>BKT – Bogen</h3>
-          <div class="doc-actions">
+        <!-- 7 -->
+        <div class="item">
+          <h3 style="margin:0">BKT – Bogen</h3>
+          <div>
             <a class="btn" href="https://de.niemi-isolering.com/niemi_isolering_side3_BKT_Bogen_DE_print.pdf" target="_blank" rel="noopener">PDF öffnen</a>
+            <a class="alt" href="https://markku2809.github.io/saksalainen/niemi_isolering_side3_BKT_Bogen_DE_print.pdf" target="_blank" rel="noopener">Alternative: GitHub-linkki</a>
           </div>
         </div>
 
-        <div class="doc">
-          <h3>BKT – Übergang (rechteckig → rund)</h3>
-          <div class="doc-actions">
+        <!-- 8 -->
+        <div class="item">
+          <h3 style="margin:0">BKT – Übergang (rechteckig → rund)</h3>
+          <div>
             <a class="btn" href="https://de.niemi-isolering.com/niemi_isolering_side4_BKT_Uebergang_DE_print.pdf" target="_blank" rel="noopener">PDF öffnen</a>
+            <a class="alt" href="https://markku2809.github.io/saksalainen/niemi_isolering_side4_BKT_Uebergang_DE_print.pdf" target="_blank" rel="noopener">Alternative: GitHub-linkki</a>
           </div>
         </div>
 
-        <div class="doc">
-          <h3>BKT – Übergang (rund)</h3>
-          <div class="doc-actions">
+        <!-- 9 -->
+        <div class="item">
+          <h3 style="margin:0">BKT – Übergang (rund)</h3>
+          <div>
             <a class="btn" href="https://de.niemi-isolering.com/niemi_isolering_side5_BKT_Uebergang_Rund_DE_print.pdf" target="_blank" rel="noopener">PDF öffnen</a>
+            <a class="alt" href="https://markku2809.github.io/saksalainen/niemi_isolering_side5_BKT_Uebergang_Rund_DE_print.pdf" target="_blank" rel="noopener">Alternative: GitHub-linkki</a>
           </div>
         </div>
 
-        <div class="doc">
-          <h3>BKT – Rechteckig / Rechteckig</h3>
-          <div class="doc-actions">
+        <!-- 10 -->
+        <div class="item">
+          <h3 style="margin:0">BKT – Rechteckig / Rechteckig</h3>
+          <div>
             <a class="btn" href="https://de.niemi-isolering.com/niemi_isolering_side6_BKT_Rechteckig_Rechteckig_DE_print.pdf" target="_blank" rel="noopener">PDF öffnen</a>
+            <a class="alt" href="https://markku2809.github.io/saksalainen/niemi_isolering_side6_BKT_Rechteckig_Rechteckig_DE_print.pdf" target="_blank" rel="noopener">Alternative: GitHub-linkki</a>
           </div>
         </div>
 
-        <div class="doc">
-          <h3>BKT – Bodenradius</h3>
-          <div class="doc-actions">
+        <!-- 11 -->
+        <div class="item">
+          <h3 style="margin:0">BKT – Bodenradius</h3>
+          <div>
             <a class="btn" href="https://de.niemi-isolering.com/niemi_isolering_side7_BKT_Bodenradius_DE_print.pdf" target="_blank" rel="noopener">PDF öffnen</a>
+            <a class="alt" href="https://markku2809.github.io/saksalainen/niemi_isolering_side7_BKT_Bodenradius_DE_print.pdf" target="_blank" rel="noopener">Alternative: GitHub-linkki</a>
           </div>
         </div>
 
-        <div class="doc">
-          <h3>Deckel mit Anschlussleiste</h3>
-          <div class="doc-actions">
+        <!-- 12 -->
+        <div class="item">
+          <h3 style="margin:0">Deckel mit Anschlussleiste</h3>
+          <div>
             <a class="btn" href="https://de.niemi-isolering.com/niemi_isolering_side8_Deckel_Anschlussleiste_DE_print.pdf" target="_blank" rel="noopener">PDF öffnen</a>
+            <a class="alt" href="https://markku2809.github.io/saksalainen/niemi_isolering_side8_Deckel_Anschlussleiste_DE_print.pdf" target="_blank" rel="noopener">Alternative: GitHub-linkki</a>
           </div>
         </div>
 
-        <div class="doc">
-          <h3>Regenhaube mit Netz</h3>
-          <div class="doc-actions">
+        <!-- 13 -->
+        <div class="item">
+          <h3 style="margin:0">Regenhaube mit Netz</h3>
+          <div>
             <a class="btn" href="https://de.niemi-isolering.com/niemi_isolering_side9_Regenhaube_Netz_DE_print.pdf" target="_blank" rel="noopener">PDF öffnen</a>
+            <a class="alt" href="https://markku2809.github.io/saksalainen/niemi_isolering_side9_Regenhaube_Netz_DE_print.pdf" target="_blank" rel="noopener">Alternative: GitHub-linkki</a>
           </div>
         </div>
+
       </div>
 
-      <div class="info-box" style="margin-top:20px;">
-        Alle Dokumente sind auf Deutsch verfügbar. Für technische Fragen kontaktieren Sie uns bitte direkt über <a href="kontakt.html">Kontakt</a>.
-      </div>
-    </section>
-  </main>
+      <p class="lead" style="margin-top:18px">
+        PDF-Dokumente sind auf Deutsch verfügbar. Bei Fragen kontaktieren Sie uns bitte über <a href="kontakt.html">Kontakt</a>.
+      </p>
+    </main>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div><strong>Niemi Isolierung</strong></div>
-      <div><a href="index.html">Startseite</a> · <a href="produkte.html">Produkte</a> · <a href="kontakt.html">Kontakt</a></div>
-      <div>© 2025</div>
-    </div>
-  </footer>
+    <footer>
+      © Niemi Isolierung · <a href="index.html">Startseite</a> · <a href="produkte.html">Produkte</a> · <a href="kontakt.html">Kontakt</a>
+    </footer>
+  </div>
 </body>
 </html>
