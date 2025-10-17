@@ -2,49 +2,75 @@
 <html lang="de">
 <head>
   <meta charset="utf-8" />
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
-<!-- refresh v27 -->
-
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Niemi Isolierung – Lüftungssysteme & Metallprodukte in hoher Qualität</title>
-  <meta name="description" content="Professionelle Wärmedämmung, Blechverkleidung und Lüftungskomponenten. Präzision in jedem Schnitt – Qualität in jedem Detail. Faire Preise, schnelle Lieferung." />
 
-  <!-- hreflangit -->
-  <link rel="alternate" hreflang="fi" href="https://www.niemi-isolering.com/" />
-  <link rel="alternate" hreflang="de" href="https://de.niemi-isolering.com/" />
-  <link rel="alternate" hreflang="x-default" href="https://www.niemi-isolering.com/" />
+  <!-- Välimuistin esto + bump -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <!-- refresh v103 -->
+
+  <title>Niemi Isolierung – Lüftungssysteme & Metallprodukte in hoher Qualität</title>
+  <meta name="description" content="Professionelle Wärmedämmung, Blechverkleidung und Lüftungskomponenten. Präzision in jedem Schnitt – Qualität in jedem Detail. Faire Preise, schnelle Lieferung.">
+
+  <!-- hreflang -->
+  <link rel="alternate" hreflang="fi" href="https://www.niemi-isolering.com/">
+  <link rel="alternate" hreflang="de" href="https://de.niemi-isolering.com/">
+  <link rel="alternate" hreflang="x-default" href="https://www.niemi-isolering.com/">
 
   <!-- OG/SEO -->
-  <meta property="og:title" content="Niemi Isolierung – Lüftungssysteme & Metallprodukte in hoher Qualität" />
-  <meta property="og:description" content="Professionelle Wärmedämmung, Blechverkleidung und Lüftungskomponenten. Präzision, faire Preise, schnelle Lieferung." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://de.niemi-isolering.com/" />
-  <link rel="canonical" href="https://de.niemi-isolering.com/" />
+  <meta property="og:title" content="Niemi Isolierung – Lüftungssysteme & Metallprodukte in hoher Qualität">
+  <meta property="og:description" content="Professionelle Wärmedämmung, Blechverkleidung und Lüftungskomponenten. Präzision, faire Preise, schnelle Lieferung.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://de.niemi-isolering.com/">
+  <link rel="canonical" href="https://de.niemi-isolering.com/">
 
-  <style>
-    :root { --bg:#0f172a; --card:#111827; --text:#e5e7eb; --accent:#f59e0b; }
+  <!-- VAALISININEN/VIHREÄ TEEMA (DK-tyyli) -->
+  <style id="theme">
+    :root{
+      --bg-top:#f4fbf7;
+      --bg-bot:#dff0e7;
+      --panel:#ffffff;
+      --card:#ffffff;
+      --muted:#466262;
+      --brand:#2fbf71;    /* vihreä */
+      --brand-2:#3aa8ff;  /* sininen korostus */
+      --text:#0f172a;
+      --max:1100px;
+    }
     *{box-sizing:border-box}
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial;background:var(--bg);color:var(--text);line-height:1.6}
-    .wrap{max-width:1000px;margin:auto;padding:24px}
-    header{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap}
-    nav a{color:var(--text);opacity:.85;text-decoration:none;margin-left:12px}
-    nav a:hover{opacity:1;text-decoration:underline}
-    .hero{margin:48px 0;padding:28px;border:1px solid #1f2937;border-radius:16px;background:linear-gradient(180deg,#111827 0%,#0b1224 100%)}
-    h1{margin:0 0 8px;font-size:clamp(28px,5vw,42px)}
-    .cta{display:inline-block;margin-top:16px;padding:12px 18px;border-radius:999px;background:var(--accent);color:#1f2937;font-weight:700;text-decoration:none}
-    .cta.ghost{background:transparent;border:2px solid var(--accent);color:var(--text)}
+    html,body{margin:0;padding:0}
+    body{
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: linear-gradient(180deg, #eaf6f0 0%, #d7efe1 100%) !important;
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .wrap{max-width:var(--max);margin:0 auto;padding:clamp(16px,2vw,24px)}
+    header{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap;
+            background:linear-gradient(180deg,#ffffffaa 0%, transparent 100%)}
+    .brand{font-weight:800;letter-spacing:.4px}
+    nav a{margin-left:16px;padding:8px 10px;border-radius:10px;color:var(--text);text-decoration:none}
+    nav a:hover{background:rgba(0,0,0,.06)}
+    .hero{padding-top:24px;padding-bottom:10px;text-align:left;background:transparent !important;border:none !important}
+    h1{font-size:clamp(28px,3.6vw,44px);line-height:1.15;margin:0 0 10px}
+    .lead{color:var(--muted);max-width:60ch;margin:0 0 16px}
+    .cta{display:inline-block;background:linear-gradient(90deg,var(--brand),#86e2ae);color:#06351f;
+         font-weight:700;padding:12px 16px;border-radius:12px;border:none;box-shadow:0 6px 16px rgba(47,191,113,.25);text-decoration:none}
+    .cta:hover{filter:brightness(1.05)}
+    .cta.ghost{display:inline-block;background:transparent;border:1px solid rgba(0,0,0,.15);
+               padding:12px 16px;border-radius:12px;color:var(--text);text-decoration:none}
     .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:24px}
-    .card{background:var(--card);padding:18px;border-radius:14px;border:1px solid #1f2937}
-    footer{opacity:.8;margin-top:40px;font-size:14px;text-align:center}
-    a{color:var(--accent)}
+    .card{background:var(--panel);border:1px solid rgba(0,0,0,.08);border-radius:16px;padding:18px;box-shadow:0 10px 26px rgba(0,0,0,.05)}
+    .card h3{margin-top:0}
+    footer{border-top:1px solid rgba(0,0,0,.08);margin-top:32px;font-size:14px;opacity:.9;text-align:center}
+    a{color:var(--brand-2)}
   </style>
 </head>
 <body>
   <div class="wrap">
     <header>
-      <div><strong>Niemi Isolierung</strong></div>
+      <div class="brand">Niemi Isolierung</div>
       <nav>
         <a href="#top">Startseite</a>
         <a href="#produkte">Produkte (PDF)</a>
@@ -58,7 +84,7 @@
 
     <section id="top" class="hero">
       <h1>Lüftungssysteme & Metallprodukte in hoher Qualität</h1>
-      <p>Präzision in jedem Schnitt – Qualität in jedem Detail. Faire Preise und schnelle Lieferung.</p>
+      <p class="lead">Präzision in jedem Schnitt – Qualität in jedem Detail. Faire Preise und schnelle Lieferung.</p>
       <a class="cta" href="#produkte">Produktkatalog ansehen</a>
       <a class="cta ghost" href="#kontakt" style="margin-left:8px;">Angebot anfordern</a>
     </section>
@@ -69,15 +95,15 @@
         <ul>
           <li>Wärme- und Kältedämmung (Rohrleitungen, Behälter, Anlagen)</li>
           <li>Blechverkleidung (Alu, Stahl, Edelstahl)</li>
-          <li>Lüftungskanäle & Komponenten</li>
-          <li>Montage vor Ort, Wartung & Reparaturen</li>
+          <li>Lüftungskanäle &amp; Komponenten</li>
+          <li>Montage vor Ort, Wartung &amp; Reparaturen</li>
         </ul>
       </div>
 
       <div class="card">
         <h3>Vorteile</h3>
         <ul>
-          <li>Energieeinsparung & Arbeitssicherheit</li>
+          <li>Energieeinsparung &amp; Arbeitssicherheit</li>
           <li>Saubere Verarbeitung, langlebige Materialien</li>
           <li>Faire, transparente Preise</li>
           <li>Zuverlässige Termine</li>
@@ -100,7 +126,7 @@
     <section id="kontakt" class="grid">
       <div class="card">
         <h3>Kontakt</h3>
-        <p><strong>E-Mail:</strong> <a href="mailto:info@niemi-isolering.com">info@niemi-isolering.com</a><br/>
+        <p><strong>E-Mail:</strong> <a href="mailto:info@niemi-isolering.com">info@niemi-isolering.com</a><br>
            <strong>Telefon:</strong> +358 … (oder +371 …)</p>
         <p><strong>Adresse:</strong> –</p>
       </div>
