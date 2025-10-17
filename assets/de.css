@@ -1,16 +1,24 @@
-/* ====== Perusmuuttujat (vaalea sininen) ====== */
+
+/* ====== Niemi Isolierung – DE (vaalea vihreä teema) ====== */
 :root{
-  --bg-top:#eef6ff;     /* taustan yläosa – hyvin vaalea sininen */
-  --bg-bot:#d9ecff;     /* taustan alaosa – pehmeä sininen */
-  --panel:#ffffff;      /* paneelit/kortit */
+  /* tausta: hyvin vaalea, pehmeä vihreä */
+  --bg-top:#eaf6f0;
+  --bg-bot:#d7efe1;
+
+  /* kortit/paneelit */
+  --panel:#ffffff;
   --card:#ffffff;
-  --muted:#4d5c6a;      /* siniharmaa teksti */
-  --brand:#2f7bf6;      /* pääkorostus (sininen) */
-  --brand-2:#00b3ff;    /* toissijainen (turkoosi/sininen) */
-  --text:#0f172a;       /* tumma pääteksti */
+
+  /* tekstit ja korostukset */
+  --text:#0f172a;     /* tumma pääteksti */
+  --muted:#466262;    /* harmaanvihreä apusävy */
+  --brand:#2fbf71;    /* päävihreä (napit) */
+  --brand-2:#3aa8ff;  /* toissijainen, ei pakko käyttää */
+
   --max:1100px;
 }
 
+/* perus */
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
 body{
@@ -20,19 +28,19 @@ body{
   line-height: 1.6;
 }
 
-/* ====== Linkit ja napit ====== */
-a{color:#1662d4;text-decoration:none}
+/* linkit ja napit */
+a{color:#0e7c4f;text-decoration:none}
 a:hover{text-decoration:underline}
 
 .btn{
   display:inline-block;
-  background:linear-gradient(90deg,var(--brand),#7fb4ff);
-  color:#0b2a66;
+  background:linear-gradient(90deg,var(--brand),#86e2ae);
+  color:#06351f;
   font-weight:700;
   padding:12px 16px;
   border-radius:12px;
   border:none;
-  box-shadow:0 6px 16px rgba(47,123,246,.25);
+  box-shadow:0 6px 16px rgba(47,191,113,.25);
 }
 .btn:hover{filter:brightness(1.05)}
 
@@ -46,9 +54,9 @@ a:hover{text-decoration:underline}
 }
 .btn.full{display:block;text-align:center;width:100%}
 
-/* ====== Rakenne ====== */
+/* rakenne */
 .container{max-width:var(--max);margin:0 auto;padding:clamp(16px,2vw,24px)}
-.site-header{background:linear-gradient(180deg,#ffffffcc 0%, transparent 100%)}
+.site-header{background:linear-gradient(180deg,#ffffffaa 0%, transparent 100%)}
 .site-header.compact{padding-bottom:8px}
 
 .nav{display:flex;align-items:center;justify-content:space-between;gap:16px}
@@ -61,13 +69,13 @@ a:hover{text-decoration:underline}
 .lead{color:var(--muted);max-width:60ch;margin:0 0 16px}
 .cta-row{display:flex;gap:12px;flex-wrap:wrap}
 
+/* gridit ja kortit */
 .grid-3{
   display:grid;gap:16px;
   grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
   margin-top:8px
 }
 
-/* Kortit & paneelit */
 .card,.panel{
   background:var(--panel);
   border:1px solid rgba(0,0,0,.08);
@@ -76,14 +84,14 @@ a:hover{text-decoration:underline}
 }
 .card h3{margin-top:0}
 
-/* Split-osa */
+/* split-osa */
 .split{
   display:grid;gap:18px;margin-top:8px;
   grid-template-columns:1.4fr .9fr
 }
 @media (max-width:900px){.split{grid-template-columns:1fr}}
 
-/* Dokumenttikortit */
+/* dokumenttikortit */
 .catalog{display:grid;gap:14px;margin-top:14px}
 .doc{
   display:grid;gap:14px;align-items:center;
@@ -96,20 +104,20 @@ a:hover{text-decoration:underline}
 .doc-actions .btn{white-space:nowrap}
 .bullets{margin:6px 0 0 16px}
 
-/* Info-viesti */
+/* info-viesti */
 .info-box{
   margin-top:16px;padding:14px 16px;border-radius:12px;
-  background:rgba(47,123,246,.08);
-  border:1px dashed rgba(47,123,246,.35)
+  background:rgba(47,191,113,.08);
+  border:1px dashed rgba(47,191,113,.35)
 }
 
-/* Kontaktikortti */
+/* kontaktikortti */
 .contact-card{
   background:#fff;border:1px solid rgba(0,0,0,.08);
   border-radius:12px;padding:14px;margin:10px 0
 }
 
-/* Footer */
+/* footer */
 .site-footer{border-top:1px solid rgba(0,0,0,.08);margin-top:32px}
 .footer-grid{display:grid;gap:12px;grid-template-columns:1fr 1fr 1fr}
 @media (max-width:800px){.footer-grid{grid-template-columns:1fr}}
